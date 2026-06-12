@@ -4,19 +4,20 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
+- What did the game look like the first time you ran it? It was good and it took worked how it should.
 - List at least two concrete bugs you noticed at the start  
+  The range of the numbers was off the range and starting a new game was imposible without a whole page refresh.
   (for example: "the hints were backwards").
 
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Input | Expected Behavior      | Actual Behavior   | Console Output / Error                             |
+| ----- | ---------------------- | ----------------- | -------------------------------------------------- |
+| 55    | lower or higher output | said to go higher | higher no error detected                           |
+| 95    | lower or higher output | higher output     | out was higher no error detected                   |
+| 100   | expected lower         | output was higher | The range was from 0-100 and this was not the case |
 
 ---
 
