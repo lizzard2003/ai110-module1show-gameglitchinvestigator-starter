@@ -63,16 +63,19 @@ secret = st.session_state.secret
 
 ## 3. Debugging and testing your fixes
 
-- How did you decide whether a bug was really fixed?
+- How did you decide whether a bug was really fixed? I read over the code and asked a question if I didnt know what somethine meant.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
 ---
 
+I ran pytest and it tested all logics, all passed and I was given percentages of the passes . Yes AI helped me design the test and told me how to run it. I did not know how do do a test so I asked claude to help me run it.
+
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  It is an app that users can interact with. The reruns and session state only has a certain amaount determined by the coder.
 
 ---
 
