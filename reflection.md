@@ -85,3 +85,6 @@ I ran pytest and it tested all logics, all passed and I was given percentages of
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  I used github to save my work as I made changes. it is a safety net and a safety mechanism.
+  I would ask my questions differently by asking why the AI answered a way it did.
+  The project helped me walk through what the AI was producing and filter out what it produced if it over produced.

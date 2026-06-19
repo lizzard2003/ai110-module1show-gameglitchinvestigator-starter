@@ -25,21 +25,24 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] Describe the game's purpose.
+      The purpose of the game is to bring fun and have the user guess a certain number to users.
+- [x] Detail which bugs you found.
+      I found that whenever the user input a number it was misleading the output. This because the string was the input instead of an integer.
+- [x] Explain what fixes you applied.
+      I changed it from being a string to an integer this gave the user the correct output and did not mislead them.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. First run the app with python3 -m streamlit run app.py. Depending on the python version you have you can run it with or without the 3.
+2. A window will pop up with the site Game glitch investigator
+3. In the middle of the page there is a text box that you input a guess in. After the input has taken place then you run the guess.
+4. After the guess has been processed then the output of your guess can be to go lower or higher.
+5. If the correct number was guessed then you will be rewarded with celebratory balloons.
 
-**Screenshot** _(optional)_: <!-- Insert a screenshot of your fixed, winning game here -->
+**Screenshot** _(optional)_:
 
 ## 🧪 Test Results
 
